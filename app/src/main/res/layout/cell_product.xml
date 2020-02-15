@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="#008000">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageProduct"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/cocacola"/>
+
+            <TextView
+                    android:id="@+id/textProduct"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-85dp"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="20dp"
+                    android:text="CocaCola"/>
+
+            <ImageButton
+                    android:id="@+id/favButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/broke"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
